@@ -51,8 +51,10 @@ header h1{
 
 .wrapper{
     float: left;
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 30px);
     background-color: #0f0e17;
+    margin: 0 15px;
+    box-shadow: 0 0 0 3px rgba(56, 55, 55, 0.2);
 }
 
 .image{
@@ -69,6 +71,7 @@ header h1{
 }
 
 .member-infos{
+    width: max-content;
     color: white;
 }
 
