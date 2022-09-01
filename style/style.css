@@ -15,3 +15,24 @@
     border: 1px solid red;
 }
 
+/* universal style */
+
+html{
+    font-family: Fredoka, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 40px auto;
+}
+
+/* header style */
+
+header{
+    text-align: center;
+}
+
+header h1{
+    color: #e53170;
+    margin-bottom: 40px;
+}
